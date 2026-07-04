@@ -1,15 +1,21 @@
-body {
-  margin: 0;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .home {
-  background: #1E3E62;
+  background: linear-gradient(135deg, #021a1a 0%, #033c2e 100%); /* Example matching your current look */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
-  font-family: Nabla;
-  padding: 125.2px;
+  font-family: Mogra;
+  color: aliceblue;
+  padding: 170px;
+  min-height: fit-content;
   font-size: 40px;
-
-  margin: 0%;
+  margin: 0;
 }
 
 .buttons {
@@ -18,12 +24,8 @@ body {
   justify-content: center;
 }
 
-.nabla {
-  font-family: "Nabla", system-ui;
-  font-optical-sizing: auto;
+.mogra-regular {
+  font-family: "Mogra", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "EDPT" 100,
-    "EHLT" 12;
 }
