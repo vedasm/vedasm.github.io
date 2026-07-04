@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veda Siva Manimuthu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=open_in_new" />
 </head>
 
 <body>
@@ -16,6 +18,7 @@
             <div class="navlinks">
                 <a href="#about">about</a>
                 <a href="#skills">skills</a>
+                <a href="#projects">projects</a>
                 <a href="#contact">contact</a>
             </div>
         </div>
@@ -54,7 +57,8 @@
                 </div>
                 <div class="stage">
                     <div class="stage-label">solve</div>
-                    <div class="stage-body">I enjoy solving engineering problems—from <strong> authentication systems to AI-powered search—using practical</strong>, <strong>efficient solutions.</strong></div>
+                    <div class="stage-body">I enjoy solving engineering problems—from <strong> authentication systems to
+                            AI-powered search—using practical</strong>, <strong>efficient solutions.</strong></div>
                 </div>
                 <div class="stage">
                     <div class="stage-label">ship</div>
@@ -64,9 +68,10 @@
             </div>
         </div>
     </section>
+    <!--Skills-->
     <section id="skills">
         <div class="wrap">
-            <div class="eyebrow">03 — skills</div>
+            <div class="eyebrow">Skills</div>
             <h2>Tech Arsenal</h2>
             <div class="skill-grid">
                 <div class="skill-cat">
@@ -112,10 +117,64 @@
             </div>
         </div>
     </section>
+    <!--Projects-->
+    <section id="projects">
+        <div class="wrap">
+            <div class="eyebrow">Projects</div>
+            <h2>Things I've Built</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-head">
+                        <h3>Vector-Hire<a href="https://huggingface.co/spaces/vedasm/Vector-Hire" target="_blank" rel="noopener"><span
+                                    class="material-symbols-outlined">
+                                    open_in_new
+                                </span></a></h3>
+
+                        <div class="project-links">
+                            <a href="https://github.com/vedasm" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        A scalable two-stage candidate ranking pipeline that filters over 100K candidates using
+                        rule-based heuristics before semantic reranking with transformer embeddings. Built modular
+                        scoring components with configurable weighted ranking, cosine similarity search, and
+                        optimized NumPy vector operations. Dockerized and deployed on Hugging Face Spaces with
+                        model caching to reduce inference latency.
+                    </p>
+                    <div class="chip-row">
+                        <span class="chip">Python</span><span class="chip">Sentence-Transformers</span><span
+                            class="chip">Streamlit</span><span class="chip">Docker</span><span class="chip">NumPy</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-head">
+                        <h3>AuthGuard Password Manager<a href="https://authguard-vedasm.vercel.app" target="_blank" rel="noopener"><span
+                                    class="material-symbols-outlined">
+                                    open_in_new
+                                </span></a></h3>
+                        <div class="project-links">
+                            <a href="https://github.com/vedasm" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        A secure password manager with authentication and session management built on Flask,
+                        bcrypt, and Flask-Login. Responsive front-end achieving a 75/100 mobile Lighthouse score
+                        and a 2.1s Largest Contentful Paint. Open-sourced with 100% PEP 8 compliance across 73
+                        commits, deployed via Vercel with a continuous deployment pipeline and 99.9% uptime.
+                    </p>
+                    <div class="chip-row">
+                        <span class="chip">Flask</span><span class="chip">Python</span><span
+                            class="chip">bcrypt</span><span class="chip">HTML/CSS</span><span
+                            class="chip">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact">
         <div class="wrap">
-            <div class="eyebrow">06 — contact</div>
+            <div class="eyebrow">Contact</div>
             <h2>Let's talk</h2>
             <div class="contact-grid">
                 <a href="mailto:sivamanimuthu.veda@gmail.com">sivamanimuthu.veda@gmail.com</a>
