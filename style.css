@@ -331,7 +331,7 @@ h2 {
 .project-head {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;   /* top-align */
+    align-items: flex-start; 
     gap: 16px;
 }
 
